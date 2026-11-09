@@ -1,0 +1,42 @@
+# ---------------------------------------------------------------------------
+# Third-party / large local assets (NOT versioned)
+# ---------------------------------------------------------------------------
+# Vendor SDK drop (WCH nanoCH32H417 EVT package, ~297 MB / 12k files).
+# It is a vendor release, not our code. Fetch it separately and place it here;
+# see README.md > "Vendor SDK" for the expected path.
+nanoCH32H417-main/
+
+# Local toolchain / installers (RISC-V GCC, MounRiver, WCH-LinkUtility, ~5 GB).
+tools/
+
+# ---------------------------------------------------------------------------
+# Agent / IDE scratch
+# ---------------------------------------------------------------------------
+.kdock-tmp/
+.kdock_skill/
+AppData/
+.vscode/
+.idea/
+
+# ---------------------------------------------------------------------------
+# Build output
+# ---------------------------------------------------------------------------
+build/
+build-*/
+*.o
+*.obj
+*.d
+*.a
+*.elf
+*.map
+*.hex
+*.bin
+*.exe
+!**/wch-tools/**
+
+# ---------------------------------------------------------------------------
+# OS noise
+# ---------------------------------------------------------------------------
+Thumbs.db
+desktop.ini
+.DS_Store

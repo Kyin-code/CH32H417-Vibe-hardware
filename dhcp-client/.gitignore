@@ -1,0 +1,12 @@
+# host build output
+build/
+build-*/
+*.o
+*.a
+*.exe
+
+# editor / OS noise
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
